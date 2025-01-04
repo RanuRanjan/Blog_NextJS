@@ -13,6 +13,7 @@ export default function ProductsLayout({ data }) {
           <tr>
             <th>Serial No </th>
             <th>Product Name </th>
+            <th>Brand </th>
             <th>Product Price </th>
           </tr>
 
@@ -21,6 +22,7 @@ export default function ProductsLayout({ data }) {
               <tr key={index}>
                 <td>{index}</td>
                 <td>{item.title}</td>
+                <td>{item.brand}</td>
                 <td>{item.price}</td>
               </tr>
             );

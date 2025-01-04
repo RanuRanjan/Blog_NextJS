@@ -1,6 +1,7 @@
 "use client";
-import React, { useEffect, useState } from "react";
+import React from "react";
 import "./product.css";
+// import ProductEvents from "./productEvents";
 // import { MakeAPIGET } from "@/utils/utility";
 
 export default function ProductLayout({ data }) {
@@ -26,6 +27,7 @@ export default function ProductLayout({ data }) {
             );
           })}
         </thead>
+        {/* <ProductEvents/> */}
       </table>
     </div>
   );
